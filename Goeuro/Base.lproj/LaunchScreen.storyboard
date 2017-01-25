@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="NeutraTextTF-DemiAlt.otf">
+            <string>NeutraTextTF-DemiAlt</string>
+            <string>NeutraTextTF-DemiAlt</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GoEuroLogo" translatesAutoresizingMaskIntoConstraints="NO" id="TF4-wc-p7H">
+                                <rect key="frame" x="87.5" y="233.5" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="M98-lj-sbr"/>
+                                    <constraint firstAttribute="width" constant="200" id="YX2-o7-dP8"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="mahmoud@eldesouky.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xfu-fF-O25">
+                                <rect key="frame" x="120" y="651" width="135.5" height="11"/>
+                                <fontDescription key="fontDescription" name="NeutraTextTF-DemiAlt" family="Neutra Text TF" pointSize="12"/>
+                                <color key="textColor" red="0.1333333333" green="0.42745098040000001" blue="0.6588235294" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mahmoud Eldesouky" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EcL-HH-0lr">
+                                <rect key="frame" x="108" y="634.5" width="158" height="16.5"/>
+                                <fontDescription key="fontDescription" name="NeutraTextTF-DemiAlt" family="Neutra Text TF" pointSize="18"/>
+                                <color key="textColor" red="0.13333333333333333" green="0.42745098039215684" blue="0.6588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Xfu-fF-O25" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="1sH-9N-dAk"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Xfu-fF-O25" secondAttribute="bottom" constant="5" id="5wO-8A-U2M"/>
+                            <constraint firstItem="TF4-wc-p7H" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Nhk-QN-oj7"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="EcL-HH-0lr" secondAttribute="bottom" constant="20" id="boW-aF-9ii"/>
+                            <constraint firstItem="TF4-wc-p7H" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="hB9-ZP-k1Y"/>
+                            <constraint firstItem="EcL-HH-0lr" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="lOF-gc-OIL"/>
+                            <constraint firstItem="Xfu-fF-O25" firstAttribute="top" secondItem="EcL-HH-0lr" secondAttribute="bottom" id="tdV-yX-VzE"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="boW-aF-9ii"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.5" y="374.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="GoEuroLogo" width="250" height="101"/>
+    </resources>
+</document>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>DZNEmptyDataSet.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Goeuro.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SIAlertView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>UIActivityIndicator-for-SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>736E57AD5AEFAAF68D47AE4E8FCB8F68</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9C0FD5095848D2CD0FF035F0389ADBDA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A42AE9943CD79DC6A75C76EA85D033FD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B95803F8B3890AC9602208A62CE4CB49</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E3A80A3F9B405E36A735F28A12C8A300</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

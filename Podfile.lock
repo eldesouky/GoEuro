@@ -1,0 +1,23 @@
+PODS:
+  - DZNEmptyDataSet (1.8.1)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SIAlertView (1.3)
+  - UIActivityIndicator-for-SDWebImage (1.2):
+    - SDWebImage (~> 3.7)
+
+DEPENDENCIES:
+  - DZNEmptyDataSet
+  - SIAlertView
+  - UIActivityIndicator-for-SDWebImage
+
+SPEC CHECKSUMS:
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SIAlertView: 20c794b55eaf44d888773ea51647cf8907723919
+  UIActivityIndicator-for-SDWebImage: 7bf7ebbf0ed1747dedc0d6e949c4603a6d0f9e0c
+
+PODFILE CHECKSUM: 8450067609912e2775d54229492cbfa2e16fa569
+
+COCOAPODS: 1.0.1

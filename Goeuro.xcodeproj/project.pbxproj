@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B27AFAF1DE277A100F57055 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B27AFAE1DE277A100F57055 /* APIService.swift */; };
+		1B27AFB21DE277AC00F57055 /* UIView+addConstraintsWithFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B27AFB11DE277AC00F57055 /* UIView+addConstraintsWithFormat.swift */; };
+		1B27AFC71DE277CA00F57055 /* TripModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B27AFB41DE277CA00F57055 /* TripModel.swift */; };
+		1B27AFC81DE277CA00F57055 /* TripsScrollAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B27AFB91DE277CA00F57055 /* TripsScrollAdapter.m */; };
+		1B27AFC91DE277CA00F57055 /* TripsTableAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B27AFBB1DE277CA00F57055 /* TripsTableAdapter.m */; };
+		1B27AFCC1DE277CA00F57055 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B27AFC21DE277CA00F57055 /* HomeViewController.m */; };
+		1B27AFCD1DE277CA00F57055 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B27AFC31DE277CA00F57055 /* HomeViewController.xib */; };
+		1B27AFCE1DE277CA00F57055 /* GoEuroSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B27AFC51DE277CA00F57055 /* GoEuroSegmentedControl.swift */; };
+		1B27AFCF1DE277CA00F57055 /* SegmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B27AFC61DE277CA00F57055 /* SegmentCell.swift */; };
+		1B5A48101DFCD8400038E348 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B5A480F1DFCD8400038E348 /* Assets.xcassets */; };
+		1B7BC92E1DE0A14C00503B2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7BC92D1DE0A14C00503B2E /* main.m */; };
+		1B7BC9311DE0A14C00503B2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7BC9301DE0A14C00503B2E /* AppDelegate.m */; };
+		1B7BC93C1DE0A14C00503B2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7BC93A1DE0A14C00503B2E /* LaunchScreen.storyboard */; };
+		1B83F5FF1DFC27D90036A7D4 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B83F5FD1DFC27D90036A7D4 /* WelcomeViewController.m */; };
+		1B83F6001DFC27D90036A7D4 /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B83F5FE1DFC27D90036A7D4 /* WelcomeViewController.xib */; };
+		1BA7F7E01E38CC2000B547EF /* TripTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA7F7D71E38CC2000B547EF /* TripTableViewCell.m */; };
+		1BA7F7E11E38CC2000B547EF /* TripTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BA7F7D81E38CC2000B547EF /* TripTableViewCell.xib */; };
+		1BA7F7E21E38CC2000B547EF /* DefaultTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA7F7DB1E38CC2000B547EF /* DefaultTableViewCell.m */; };
+		1BA7F7E31E38CC2000B547EF /* DefaultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BA7F7DC1E38CC2000B547EF /* DefaultTableViewCell.xib */; };
+		1BA7F7E41E38CC2000B547EF /* GoEuroTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA7F7DF1E38CC2000B547EF /* GoEuroTableViewCell.m */; };
+		1BA7F7F01E38CF9A00B547EF /* myfontsfree.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1BA7F7E71E38CF9A00B547EF /* myfontsfree.txt */; };
+		1BA7F7F11E38CF9A00B547EF /* NeutraTextTF-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1BA7F7E81E38CF9A00B547EF /* NeutraTextTF-Bold.otf */; };
+		1BA7F7F21E38CF9A00B547EF /* NeutraTextTF-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1BA7F7E91E38CF9A00B547EF /* NeutraTextTF-BoldItalic.otf */; };
+		1BA7F7F31E38CF9A00B547EF /* NeutraTextTF-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1BA7F7EA1E38CF9A00B547EF /* NeutraTextTF-Book.otf */; };
+		1BA7F7F41E38CF9A00B547EF /* NeutraTextTF-BookItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1BA7F7EB1E38CF9A00B547EF /* NeutraTextTF-BookItalic.otf */; };
+		1BA7F7F51E38CF9A00B547EF /* NeutraTextTF-DemiAlt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1BA7F7EC1E38CF9A00B547EF /* NeutraTextTF-DemiAlt.otf */; };
+		1BA7F7F61E38CF9A00B547EF /* NeutraTextTF.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1BA7F7ED1E38CF9A00B547EF /* NeutraTextTF.otf */; };
+		1BA7F7F71E38CF9A00B547EF /* neutratexttfbook.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BA7F7EE1E38CF9A00B547EF /* neutratexttfbook.png */; };
+		1BA7F7F81E38CF9A00B547EF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1BA7F7EF1E38CF9A00B547EF /* Info.plist */; };
+		1BA7F7FC1E38D2D500B547EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BA7F7FA1E38D2D500B547EF /* Main.storyboard */; };
+		1BA7F7FF1E38D36700B547EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA7F7FE1E38D36700B547EF /* ViewController.m */; };
+		1BB7D9DA1E057AD800BB7F2B /* Double+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB7D9D91E057AD800BB7F2B /* Double+Format.swift */; };
+		1BB7D9DC1E057AF200BB7F2B /* Int+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB7D9DB1E057AF200BB7F2B /* Int+Format.swift */; };
+		F4FE74F9592BC353908C8B0D /* libPods-Goeuro.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7988EE204E1062C10DB3934F /* libPods-Goeuro.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B0543EF1E15C7D900498B04 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		1B0543F11E15C7E600498B04 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		1B0543F41E15CADC00498B04 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = "../../Downloads/realm-objc-2.1.2/ios/static/Realm.framework"; sourceTree = "<group>"; };
+		1B27AFAE1DE277A100F57055 /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		1B27AFB11DE277AC00F57055 /* UIView+addConstraintsWithFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+addConstraintsWithFormat.swift"; sourceTree = "<group>"; };
+		1B27AFB41DE277CA00F57055 /* TripModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripModel.swift; sourceTree = "<group>"; };
+		1B27AFB81DE277CA00F57055 /* TripsScrollAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripsScrollAdapter.h; sourceTree = "<group>"; };
+		1B27AFB91DE277CA00F57055 /* TripsScrollAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripsScrollAdapter.m; sourceTree = "<group>"; };
+		1B27AFBA1DE277CA00F57055 /* TripsTableAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripsTableAdapter.h; sourceTree = "<group>"; };
+		1B27AFBB1DE277CA00F57055 /* TripsTableAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripsTableAdapter.m; sourceTree = "<group>"; };
+		1B27AFC11DE277CA00F57055 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		1B27AFC21DE277CA00F57055 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		1B27AFC31DE277CA00F57055 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		1B27AFC51DE277CA00F57055 /* GoEuroSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoEuroSegmentedControl.swift; sourceTree = "<group>"; };
+		1B27AFC61DE277CA00F57055 /* SegmentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentCell.swift; sourceTree = "<group>"; };
+		1B5A480F1DFCD8400038E348 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Goeuro/Assets.xcassets; sourceTree = "<group>"; };
+		1B7BC9291DE0A14C00503B2E /* Goeuro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Goeuro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B7BC92D1DE0A14C00503B2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B7BC92F1DE0A14C00503B2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1B7BC9301DE0A14C00503B2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1B7BC93B1DE0A14C00503B2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B8380B11DFA270800867A34 /* GoEuroEnumerators.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoEuroEnumerators.h; sourceTree = "<group>"; };
+		1B83F5FC1DFC27D90036A7D4 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		1B83F5FD1DFC27D90036A7D4 /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		1B83F5FE1DFC27D90036A7D4 /* WelcomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
+		1BA7F7D61E38CC2000B547EF /* TripTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripTableViewCell.h; sourceTree = "<group>"; };
+		1BA7F7D71E38CC2000B547EF /* TripTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripTableViewCell.m; sourceTree = "<group>"; };
+		1BA7F7D81E38CC2000B547EF /* TripTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TripTableViewCell.xib; sourceTree = "<group>"; };
+		1BA7F7DA1E38CC2000B547EF /* DefaultTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultTableViewCell.h; sourceTree = "<group>"; };
+		1BA7F7DB1E38CC2000B547EF /* DefaultTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultTableViewCell.m; sourceTree = "<group>"; };
+		1BA7F7DC1E38CC2000B547EF /* DefaultTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DefaultTableViewCell.xib; sourceTree = "<group>"; };
+		1BA7F7DE1E38CC2000B547EF /* GoEuroTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoEuroTableViewCell.h; sourceTree = "<group>"; };
+		1BA7F7DF1E38CC2000B547EF /* GoEuroTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoEuroTableViewCell.m; sourceTree = "<group>"; };
+		1BA7F7E71E38CF9A00B547EF /* myfontsfree.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = myfontsfree.txt; sourceTree = "<group>"; };
+		1BA7F7E81E38CF9A00B547EF /* NeutraTextTF-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeutraTextTF-Bold.otf"; sourceTree = "<group>"; };
+		1BA7F7E91E38CF9A00B547EF /* NeutraTextTF-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeutraTextTF-BoldItalic.otf"; sourceTree = "<group>"; };
+		1BA7F7EA1E38CF9A00B547EF /* NeutraTextTF-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeutraTextTF-Book.otf"; sourceTree = "<group>"; };
+		1BA7F7EB1E38CF9A00B547EF /* NeutraTextTF-BookItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeutraTextTF-BookItalic.otf"; sourceTree = "<group>"; };
+		1BA7F7EC1E38CF9A00B547EF /* NeutraTextTF-DemiAlt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeutraTextTF-DemiAlt.otf"; sourceTree = "<group>"; };
+		1BA7F7ED1E38CF9A00B547EF /* NeutraTextTF.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NeutraTextTF.otf; sourceTree = "<group>"; };
+		1BA7F7EE1E38CF9A00B547EF /* neutratexttfbook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = neutratexttfbook.png; sourceTree = "<group>"; };
+		1BA7F7EF1E38CF9A00B547EF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BA7F7F91E38CFB300B547EF /* Goeuro-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Goeuro-Bridging-Header.h"; path = "../../Goeuro-Bridging-Header.h"; sourceTree = "<group>"; };
+		1BA7F7FB1E38D2D500B547EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1BA7F7FD1E38D36700B547EF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1BA7F7FE1E38D36700B547EF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1BB7D9D91E057AD800BB7F2B /* Double+Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Format.swift"; sourceTree = "<group>"; };
+		1BB7D9DB1E057AF200BB7F2B /* Int+Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Format.swift"; sourceTree = "<group>"; };
+		7988EE204E1062C10DB3934F /* libPods-Goeuro.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Goeuro.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C223BD256DB4B92E10F687 /* Pods-Goeuro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Goeuro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Goeuro/Pods-Goeuro.debug.xcconfig"; sourceTree = "<group>"; };
+		A3073B0C8F7230E56E686376 /* Pods-Goeuro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Goeuro.release.xcconfig"; path = "Pods/Target Support Files/Pods-Goeuro/Pods-Goeuro.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B7BC9261DE0A14C00503B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4FE74F9592BC353908C8B0D /* libPods-Goeuro.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B27AFAA1DE276C700F57055 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				1B27AFAE1DE277A100F57055 /* APIService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		1B27AFB01DE277AC00F57055 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1B27AFB11DE277AC00F57055 /* UIView+addConstraintsWithFormat.swift */,
+				1BB7D9D91E057AD800BB7F2B /* Double+Format.swift */,
+				1BB7D9DB1E057AF200BB7F2B /* Int+Format.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1B27AFB31DE277CA00F57055 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1B8380B11DFA270800867A34 /* GoEuroEnumerators.h */,
+				1B27AFB41DE277CA00F57055 /* TripModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1B27AFB51DE277CA00F57055 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1B83F5FB1DFC27CD0036A7D4 /* Welcome View */,
+				1B27AFB61DE277CA00F57055 /* Trips View */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1B27AFB61DE277CA00F57055 /* Trips View */ = {
+			isa = PBXGroup;
+			children = (
+				1B27AFB71DE277CA00F57055 /* Adapters */,
+				1B27AFBC1DE277CA00F57055 /* Cells */,
+				1B27AFC01DE277CA00F57055 /* Contollers */,
+				1B27AFC41DE277CA00F57055 /* Customs */,
+			);
+			path = "Trips View";
+			sourceTree = "<group>";
+		};
+		1B27AFB71DE277CA00F57055 /* Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				1B27AFB81DE277CA00F57055 /* TripsScrollAdapter.h */,
+				1B27AFB91DE277CA00F57055 /* TripsScrollAdapter.m */,
+				1B27AFBA1DE277CA00F57055 /* TripsTableAdapter.h */,
+				1B27AFBB1DE277CA00F57055 /* TripsTableAdapter.m */,
+			);
+			path = Adapters;
+			sourceTree = "<group>";
+		};
+		1B27AFBC1DE277CA00F57055 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1BA7F7DD1E38CC2000B547EF /* GoEuro Trip Cell */,
+				1BA7F7D91E38CC2000B547EF /* DefaultView Trip Cell */,
+				1BA7F7D51E38CC2000B547EF /* CustomView Trip Cell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		1B27AFC01DE277CA00F57055 /* Contollers */ = {
+			isa = PBXGroup;
+			children = (
+				1B27AFC11DE277CA00F57055 /* HomeViewController.h */,
+				1B27AFC21DE277CA00F57055 /* HomeViewController.m */,
+				1B27AFC31DE277CA00F57055 /* HomeViewController.xib */,
+			);
+			path = Contollers;
+			sourceTree = "<group>";
+		};
+		1B27AFC41DE277CA00F57055 /* Customs */ = {
+			isa = PBXGroup;
+			children = (
+				1B27AFC51DE277CA00F57055 /* GoEuroSegmentedControl.swift */,
+				1B27AFC61DE277CA00F57055 /* SegmentCell.swift */,
+			);
+			path = Customs;
+			sourceTree = "<group>";
+		};
+		1B7BC9201DE0A14C00503B2E = {
+			isa = PBXGroup;
+			children = (
+				1B7BC92B1DE0A14C00503B2E /* Goeuro */,
+				1B7BC92A1DE0A14C00503B2E /* Products */,
+				1B5A480F1DFCD8400038E348 /* Assets.xcassets */,
+				9C13FBFD39E7E85043202BF0 /* Pods */,
+				CE6CB3762F12ED20B848A0E1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1B7BC92A1DE0A14C00503B2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B7BC9291DE0A14C00503B2E /* Goeuro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B7BC92B1DE0A14C00503B2E /* Goeuro */ = {
+			isa = PBXGroup;
+			children = (
+				1B27AFAA1DE276C700F57055 /* API */,
+				1B27AFB31DE277CA00F57055 /* Models */,
+				1B27AFB01DE277AC00F57055 /* Extensions */,
+				1B27AFB51DE277CA00F57055 /* Views */,
+				1B7BC92C1DE0A14C00503B2E /* Supporting Files */,
+				1B7BC92F1DE0A14C00503B2E /* AppDelegate.h */,
+				1BA7F7EF1E38CF9A00B547EF /* Info.plist */,
+				1B7BC9301DE0A14C00503B2E /* AppDelegate.m */,
+				1B7BC93A1DE0A14C00503B2E /* LaunchScreen.storyboard */,
+				1BA7F7FA1E38D2D500B547EF /* Main.storyboard */,
+				1BA7F7FD1E38D36700B547EF /* ViewController.h */,
+				1BA7F7FE1E38D36700B547EF /* ViewController.m */,
+			);
+			path = Goeuro;
+			sourceTree = "<group>";
+		};
+		1B7BC92C1DE0A14C00503B2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BA7F7E51E38CF9A00B547EF /* Fonts */,
+				1BA7F7F91E38CFB300B547EF /* Goeuro-Bridging-Header.h */,
+				1B7BC92D1DE0A14C00503B2E /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B83F5FB1DFC27CD0036A7D4 /* Welcome View */ = {
+			isa = PBXGroup;
+			children = (
+				1B83F5FC1DFC27D90036A7D4 /* WelcomeViewController.h */,
+				1B83F5FD1DFC27D90036A7D4 /* WelcomeViewController.m */,
+				1B83F5FE1DFC27D90036A7D4 /* WelcomeViewController.xib */,
+			);
+			path = "Welcome View";
+			sourceTree = "<group>";
+		};
+		1BA7F7D51E38CC2000B547EF /* CustomView Trip Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1BA7F7D61E38CC2000B547EF /* TripTableViewCell.h */,
+				1BA7F7D71E38CC2000B547EF /* TripTableViewCell.m */,
+				1BA7F7D81E38CC2000B547EF /* TripTableViewCell.xib */,
+			);
+			path = "CustomView Trip Cell";
+			sourceTree = "<group>";
+		};
+		1BA7F7D91E38CC2000B547EF /* DefaultView Trip Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1BA7F7DA1E38CC2000B547EF /* DefaultTableViewCell.h */,
+				1BA7F7DB1E38CC2000B547EF /* DefaultTableViewCell.m */,
+				1BA7F7DC1E38CC2000B547EF /* DefaultTableViewCell.xib */,
+			);
+			path = "DefaultView Trip Cell";
+			sourceTree = "<group>";
+		};
+		1BA7F7DD1E38CC2000B547EF /* GoEuro Trip Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1BA7F7DE1E38CC2000B547EF /* GoEuroTableViewCell.h */,
+				1BA7F7DF1E38CC2000B547EF /* GoEuroTableViewCell.m */,
+			);
+			path = "GoEuro Trip Cell";
+			sourceTree = "<group>";
+		};
+		1BA7F7E51E38CF9A00B547EF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1BA7F7E61E38CF9A00B547EF /* neutratexttfbook */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		1BA7F7E61E38CF9A00B547EF /* neutratexttfbook */ = {
+			isa = PBXGroup;
+			children = (
+				1BA7F7E71E38CF9A00B547EF /* myfontsfree.txt */,
+				1BA7F7E81E38CF9A00B547EF /* NeutraTextTF-Bold.otf */,
+				1BA7F7E91E38CF9A00B547EF /* NeutraTextTF-BoldItalic.otf */,
+				1BA7F7EA1E38CF9A00B547EF /* NeutraTextTF-Book.otf */,
+				1BA7F7EB1E38CF9A00B547EF /* NeutraTextTF-BookItalic.otf */,
+				1BA7F7EC1E38CF9A00B547EF /* NeutraTextTF-DemiAlt.otf */,
+				1BA7F7ED1E38CF9A00B547EF /* NeutraTextTF.otf */,
+				1BA7F7EE1E38CF9A00B547EF /* neutratexttfbook.png */,
+			);
+			path = neutratexttfbook;
+			sourceTree = "<group>";
+		};
+		9C13FBFD39E7E85043202BF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0C223BD256DB4B92E10F687 /* Pods-Goeuro.debug.xcconfig */,
+				A3073B0C8F7230E56E686376 /* Pods-Goeuro.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE6CB3762F12ED20B848A0E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B0543F41E15CADC00498B04 /* Realm.framework */,
+				1B0543F11E15C7E600498B04 /* libz.tbd */,
+				1B0543EF1E15C7D900498B04 /* libc++.tbd */,
+				7988EE204E1062C10DB3934F /* libPods-Goeuro.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B7BC9281DE0A14C00503B2E /* Goeuro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B7BC9401DE0A14C00503B2E /* Build configuration list for PBXNativeTarget "Goeuro" */;
+			buildPhases = (
+				CF8B2013AFC0FA081CF2DA5D /* [CP] Check Pods Manifest.lock */,
+				1B7BC9251DE0A14C00503B2E /* Sources */,
+				1B7BC9261DE0A14C00503B2E /* Frameworks */,
+				1B7BC9271DE0A14C00503B2E /* Resources */,
+				0E6AD2C5036B4DE9A3DF15F9 /* [CP] Embed Pods Frameworks */,
+				24982FD627F11FCF4F952D23 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Goeuro;
+			productName = Goeuro;
+			productReference = 1B7BC9291DE0A14C00503B2E /* Goeuro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B7BC9211DE0A14C00503B2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mahmoud Eldesouky";
+				TargetAttributes = {
+					1B7BC9281DE0A14C00503B2E = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4FWWLJ39J9;
+					};
+				};
+			};
+			buildConfigurationList = 1B7BC9241DE0A14C00503B2E /* Build configuration list for PBXProject "Goeuro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B7BC9201DE0A14C00503B2E;
+			productRefGroup = 1B7BC92A1DE0A14C00503B2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B7BC9281DE0A14C00503B2E /* Goeuro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B7BC9271DE0A14C00503B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BA7F7F31E38CF9A00B547EF /* NeutraTextTF-Book.otf in Resources */,
+				1BA7F7F11E38CF9A00B547EF /* NeutraTextTF-Bold.otf in Resources */,
+				1BA7F7F71E38CF9A00B547EF /* neutratexttfbook.png in Resources */,
+				1BA7F7E31E38CC2000B547EF /* DefaultTableViewCell.xib in Resources */,
+				1BA7F7F01E38CF9A00B547EF /* myfontsfree.txt in Resources */,
+				1B5A48101DFCD8400038E348 /* Assets.xcassets in Resources */,
+				1BA7F7E11E38CC2000B547EF /* TripTableViewCell.xib in Resources */,
+				1BA7F7F51E38CF9A00B547EF /* NeutraTextTF-DemiAlt.otf in Resources */,
+				1BA7F7F81E38CF9A00B547EF /* Info.plist in Resources */,
+				1BA7F7F21E38CF9A00B547EF /* NeutraTextTF-BoldItalic.otf in Resources */,
+				1B83F6001DFC27D90036A7D4 /* WelcomeViewController.xib in Resources */,
+				1BA7F7FC1E38D2D500B547EF /* Main.storyboard in Resources */,
+				1B27AFCD1DE277CA00F57055 /* HomeViewController.xib in Resources */,
+				1BA7F7F41E38CF9A00B547EF /* NeutraTextTF-BookItalic.otf in Resources */,
+				1BA7F7F61E38CF9A00B547EF /* NeutraTextTF.otf in Resources */,
+				1B7BC93C1DE0A14C00503B2E /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E6AD2C5036B4DE9A3DF15F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Goeuro/Pods-Goeuro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24982FD627F11FCF4F952D23 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Goeuro/Pods-Goeuro-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF8B2013AFC0FA081CF2DA5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B7BC9251DE0A14C00503B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BA7F7FF1E38D36700B547EF /* ViewController.m in Sources */,
+				1BB7D9DC1E057AF200BB7F2B /* Int+Format.swift in Sources */,
+				1BA7F7E41E38CC2000B547EF /* GoEuroTableViewCell.m in Sources */,
+				1B27AFC81DE277CA00F57055 /* TripsScrollAdapter.m in Sources */,
+				1B27AFC91DE277CA00F57055 /* TripsTableAdapter.m in Sources */,
+				1B83F5FF1DFC27D90036A7D4 /* WelcomeViewController.m in Sources */,
+				1B27AFCF1DE277CA00F57055 /* SegmentCell.swift in Sources */,
+				1B27AFCC1DE277CA00F57055 /* HomeViewController.m in Sources */,
+				1B7BC9311DE0A14C00503B2E /* AppDelegate.m in Sources */,
+				1B27AFCE1DE277CA00F57055 /* GoEuroSegmentedControl.swift in Sources */,
+				1BA7F7E21E38CC2000B547EF /* DefaultTableViewCell.m in Sources */,
+				1B27AFC71DE277CA00F57055 /* TripModel.swift in Sources */,
+				1B27AFB21DE277AC00F57055 /* UIView+addConstraintsWithFormat.swift in Sources */,
+				1B27AFAF1DE277A100F57055 /* APIService.swift in Sources */,
+				1BB7D9DA1E057AD800BB7F2B /* Double+Format.swift in Sources */,
+				1B7BC92E1DE0A14C00503B2E /* main.m in Sources */,
+				1BA7F7E01E38CC2000B547EF /* TripTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1B7BC93A1DE0A14C00503B2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B7BC93B1DE0A14C00503B2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1BA7F7FA1E38D2D500B547EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BA7F7FB1E38D2D500B547EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B7BC93E1DE0A14C00503B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B7BC93F1DE0A14C00503B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B7BC9411DE0A14C00503B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0C223BD256DB4B92E10F687 /* Pods-Goeuro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Goeuro/realm-objc-2.1.1/ios/dynamic",
+					"$(PROJECT_DIR)/Goeuro/realm-objc-2.1.1/ios/static",
+					"$(PROJECT_DIR)/Goeuro/realm-objc-2.1.1/osx",
+					"$(PROJECT_DIR)/Goeuro/realm-objc-2.1.1/tvos",
+					"$(PROJECT_DIR)/Goeuro/realm-objc-2.1.1/watchos",
+					"$(PROJECT_DIR)/Goeuro",
+					"$(PROJECT_DIR)/Goeuro/Supporting",
+					Libraries,
+					"$(PROJECT_DIR)/Goeuro/Supporting",
+					Libraries,
+					"$(PROJECT_DIR)/Goeuro/Supporting",
+					Libraries,
+				);
+				INFOPLIST_FILE = Goeuro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_BUNDLE_IDENTIFIER = dos.Goeuro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Goeuro-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B7BC9421DE0A14C00503B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3073B0C8F7230E56E686376 /* Pods-Goeuro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Goeuro/realm-objc-2.1.1/ios/dynamic",
+					"$(PROJECT_DIR)/Goeuro/realm-objc-2.1.1/ios/static",
+					"$(PROJECT_DIR)/Goeuro/realm-objc-2.1.1/osx",
+					"$(PROJECT_DIR)/Goeuro/realm-objc-2.1.1/tvos",
+					"$(PROJECT_DIR)/Goeuro/realm-objc-2.1.1/watchos",
+					"$(PROJECT_DIR)/Goeuro",
+					"$(PROJECT_DIR)/Goeuro/Supporting",
+					Libraries,
+					"$(PROJECT_DIR)/Goeuro/Supporting",
+					Libraries,
+					"$(PROJECT_DIR)/Goeuro/Supporting",
+					Libraries,
+				);
+				INFOPLIST_FILE = Goeuro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_BUNDLE_IDENTIFIER = dos.Goeuro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Goeuro-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B7BC9241DE0A14C00503B2E /* Build configuration list for PBXProject "Goeuro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B7BC93E1DE0A14C00503B2E /* Debug */,
+				1B7BC93F1DE0A14C00503B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B7BC9401DE0A14C00503B2E /* Build configuration list for PBXNativeTarget "Goeuro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B7BC9411DE0A14C00503B2E /* Debug */,
+				1B7BC9421DE0A14C00503B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B7BC9211DE0A14C00503B2E /* Project object */;
+}
