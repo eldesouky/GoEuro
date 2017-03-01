@@ -1,12 +1,9 @@
 # GoEuro
-GoEuro Application Task
+GoEuro mimc application
 
-This app is done upon the required task for Goeuro Application: 
-http://www.goeuro.com/jobs/apply?gh_jid=32973&gh_jid=32973&gh_src=jh68ep
+The app id compatible with iOS 7 and different iPhone screen sizes.
 
-The app id compatible with iOS 7 and different iPhone screen sizes
-
-As Required, I have done the project in Objective C with some Swift touches
+The project in Objective C with some Swift touches
 Swift Files:
 
     - APIService.Swift
