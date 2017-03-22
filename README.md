@@ -1,5 +1,5 @@
 # GoEuro
-GoEuro mimc application
+Integration of Objective C and Swift project practice. GoEuro mimc application
 
 The app id compatible with iOS 7 and different iPhone screen sizes.
 
